@@ -1,0 +1,21 @@
+# APACHE 1.3
+<IfModule mod_alias.c>
+
+    Alias /deploy/includes/ "/leanphp/includes/"
+    Alias /deploy/views/ "/leanphp/views/"
+     
+	
+    <Directory "/leanphp/includes/">
+        Options Indexes MultiViews
+        AllowOverride None
+        Order allow,deny
+        Allow from all
+    </Directory>
+    
+</IfModule>
+
+
+
+# APACHE 2:
+# same as above, but use '<IfModule alias_module>'
+# Also:  LoadModule rewrite_module modules/mod_rewrite.so

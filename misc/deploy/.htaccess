@@ -1,0 +1,9 @@
+RewriteEngine on
+
+# Javascript passthru handling (framework must be in public location, use mod_rewrite otherwise)
+#RewriteRule  ^includes/javascript(.*) http://localhost/svn/framework/trunk/includes/javascript$1
+#RewriteRule  ^includes/chart(.*) http://localhost/svn/framework/trunk/includes/chart$1
+#RewriteRule  ^views/html(.*) http://localhost/svn/framework/trunk/views/html$1
+
+# View Handling
+RewriteRule  ^(.*)\/(.*)\.(csv|htm|html|json|xml|php|pdf)$ index.php?module=$1&method=$2&view=$3&%{QUERY_STRING}

@@ -1,0 +1,70 @@
+8
+
+dir
+43
+http://svn2.assembla.com/svn/lean-php-framework/includes/class/phpmailer
+http://svn2.assembla.com/svn/lean-php-framework
+
+
+
+2008-10-19T21:03:19.702673Z
+29
+tonylandis
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+38686702-15cf-42e4-a595-3071df8bf5ea
+
+LICENSE
+file
+
+
+
+
+2009-01-20T20:52:56.000000Z
+278f2557e3b277b94e9a8430f6a6d0a9
+2008-01-11T17:51:21.844508Z
+1
+tonylandis
+has-props
+
+language
+dir
+
+class.phpmailer.php
+file
+
+
+
+
+2009-01-20T20:52:56.000000Z
+e18d7303c624df74bb31204a14499ead
+2008-10-19T21:03:19.702673Z
+29
+tonylandis
+has-props
+
+class.smtp.php
+file
+
+
+
+
+2009-01-20T20:52:56.000000Z
+74f21463fae496003a8c037205c34c36
+2008-10-19T21:03:19.702673Z
+29
+tonylandis
+has-props
+

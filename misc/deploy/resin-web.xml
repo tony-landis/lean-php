@@ -1,0 +1,5 @@
+<web-app xmlns="http://caucho.com/ns/resin">
+	<rewrite-dispatch> 
+		<forward regexp="^\/(.*)\/(.*)\.(htm|php|csv|yaml|json|xml|pdf)$" target="/?module=$1&amp;method=$2&amp;view=$2"/> 
+	</rewrite-dispatch>
+</web-app>
