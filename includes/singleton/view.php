@@ -176,7 +176,8 @@ class sview {
 	static function setError($error) { self::$ViewSingleton->error .= $error; } 
 	static function setAlert($alert) { self::$ViewSingleton->alert .= $alert; } 
 	static function getAlert() { return self::$ViewSingleton->alert; }
-	static function getError() { return self::$ViewSingleton->error; } 	  
+	static function delAlert() { self::$ViewSingleton->alert = false; }
+	static function getError() { return self::$ViewSingleton->error; }
 	static function getMethodResult() { return (self::$ViewSingleton->methodResult == false) ? false:true; }
 	static function & getModule() { return self::$ViewSingleton->module; }
 	static function & getMethod() { return self::$ViewSingleton->method; } 
